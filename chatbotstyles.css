@@ -1,0 +1,94 @@
+body {
+    background-color: #eee;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.card-header {
+    background-color: #f5f6f7;
+    border-bottom: none;
+}
+
+.card-footer {
+    background-color: #f5f6f7;
+    border-top: none;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body p {
+    margin-bottom: 0;
+}
+
+.small {
+    font-size: 14px;
+}
+
+.bg-primary {
+    background-color: #007bff !important;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+.form-control {
+    height: 48px;
+    border: none;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 30px;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.btn-sm {
+    font-size: 14px;
+    padding: 8px 16px;
+    line-height: 1.5;
+}
+
+.btn-sm i {
+    font-size: 16px;
+}
+
+.mdb-scrollbar {
+    max-height: 100%;
+}
+
+.mdb-scrollbar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.mdb-scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.mdb-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.mdb-scrollbar::-webkit-scrollbar-track {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+.d-flex.justify-content-between.align-items-center {
+    min-height: 56px;
+}
